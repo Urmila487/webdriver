@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".hl-cat-nav__sub-cat-col a[href*=\"Wristwatches\"]\"}\n  (Session info: MicrosoftEdge=92.0.902.84)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00007FF779C6DE72+4841074]\n\tOrdinal0 [0x00007FF7798EE793+1173395]\n\tOrdinal0 [0x00007FF779928519+1410329]\n\tOrdinal0 [0x00007FF779958BD7+1608663]\n\tOrdinal0 [0x00007FF77994331B+1520411]\n\tOrdinal0 [0x00007FF779955D56+1596758]\n\tOrdinal0 [0x00007FF77994315F+1519967]\n\tOrdinal0 [0x00007FF77991949A+1348762]\n\tOrdinal0 [0x00007FF77991A4FF+1352959]\n\tOrdinal0 [0x00007FF7799ABA2D+1948205]\n\tOrdinal0 [0x00007FF77998024B+1770059]\n\tOrdinal0 [0x00007FF779B62759+3745625]\n\tOrdinal0 [0x00007FF779981AD2+1776338]\n\tOrdinal0 [0x00007FF779C70888+4851848]\n\tOrdinal0 [0x00007FF779C702F4+4850420]\n\tOrdinal0 [0x00007FF779C70146+4849990]\n\tOrdinal0 [0x00007FF779C286AC+4556460]\n\tBaseThreadInitThunk [0x00007FFCD2347034+20]\n\tRtlUserThreadStart [0x00007FFCD39E2651+33]\n"
-}
