@@ -1,0 +1,102 @@
+{
+  "uid" : "7572d56ba7121871",
+  "name" : "should show the banner conatiner",
+  "fullName" : "Watches page.should show the banner conatiner",
+  "historyId" : "1d09b568a03a5b564e8a0ad22da8ea1a",
+  "time" : {
+    "start" : 1630493345620,
+    "stop" : 1630493345656,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1630493345642,
+        "stop" : 0,
+        "duration" : -1630493345642
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1630493345648,
+          "stop" : 0,
+          "duration" : -1630493345648
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f0a80d95eb2d7535",
+          "name" : "Request",
+          "source" : "f0a80d95eb2d7535.json",
+          "type" : "application/json",
+          "size" : 70
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "2-0"
+  }, {
+    "name" : "suite",
+    "value" : "Watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "Watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the banner conatiner"
+  }, {
+    "name" : "package",
+    "value" : "Watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "msedge-92.0.902.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7572d56ba7121871.json",
+  "parameterValues" : [ "msedge-92.0.902.84" ]
+}

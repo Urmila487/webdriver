@@ -1,0 +1,150 @@
+{
+  "uid" : "44156e08fd014dbb",
+  "name" : "should verify the watch category list",
+  "fullName" : "Watches page.should verify the watch category list",
+  "historyId" : "1f0c45f31ad830be97d9e045eb552462",
+  "time" : {
+    "start" : 1630493340977,
+    "stop" : 1630493341044,
+    "duration" : 67
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1630493340989,
+        "stop" : 0,
+        "duration" : -1630493340989
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1630493340998,
+          "stop" : 0,
+          "duration" : -1630493340998
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1630493341010,
+            "stop" : 0,
+            "duration" : -1630493341010
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1630493341018,
+              "stop" : 0,
+              "duration" : -1630493341018
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6df90799d7dae924",
+              "name" : "Request",
+              "source" : "6df90799d7dae924.json",
+              "type" : "application/json",
+              "size" : 81
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "9dd6d26286168f29",
+            "name" : "Request",
+            "source" : "9dd6d26286168f29.json",
+            "type" : "application/json",
+            "size" : 94
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "6e93131c071b28ff",
+          "name" : "Request",
+          "source" : "6e93131c071b28ff.json",
+          "type" : "application/json",
+          "size" : 84
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e3a300f7b7e8c34e",
+        "name" : "Request",
+        "source" : "e3a300f7b7e8c34e.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "Watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the watch category list"
+  }, {
+    "name" : "package",
+    "value" : "Watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44156e08fd014dbb.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

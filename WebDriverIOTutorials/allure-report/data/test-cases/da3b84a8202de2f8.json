@@ -1,0 +1,170 @@
+{
+  "uid" : "da3b84a8202de2f8",
+  "name" : "should conatin link on banner button and verify its clickable",
+  "fullName" : "Watches page.should conatin link on banner button and verify its clickable",
+  "historyId" : "3fbbd79db4ac88e292394bf6c1a4af02",
+  "time" : {
+    "start" : 1630495122881,
+    "stop" : 1630495122928,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1630495122883,
+        "stop" : 0,
+        "duration" : -1630495122883
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1630495122887,
+          "stop" : 0,
+          "duration" : -1630495122887
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1630495122919,
+            "stop" : 0,
+            "duration" : -1630495122919
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1630495122924,
+              "stop" : 0,
+              "duration" : -1630495122924
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "3e2dc6545f56694d",
+              "name" : "Request",
+              "source" : "3e2dc6545f56694d.json",
+              "type" : "application/json",
+              "size" : 36
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "58778be71f81debc",
+            "name" : "Request",
+            "source" : "58778be71f81debc.json",
+            "type" : "application/json",
+            "size" : 110
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "5a391c81f0d2ccf",
+          "name" : "Request",
+          "source" : "5a391c81f0d2ccf.json",
+          "type" : "application/json",
+          "size" : 110
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "Watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should conatin link on banner button and verify its clickable"
+  }, {
+    "name" : "package",
+    "value" : "Watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d8406dae30b540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630494919037,
+        "stop" : 1630494919109,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "65d2c21a12091938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630493462759,
+        "stop" : 1630493462789,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "960ab2fa769e3565",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630493341220,
+        "stop" : 1630493341239,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da3b84a8202de2f8.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

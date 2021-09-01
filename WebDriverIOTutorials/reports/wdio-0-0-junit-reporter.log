@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay Product Search" timestamp="2021-09-01T16:05:21" time="0.33" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="chrome.92_0_4515_159.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_159.windows.Ebay_Product_Search" name="Should open the main URL and Verify the title" time="0.054">
+      <system-out><![CDATA[
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/window/maximize - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/title - {}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/url - {"url":"https://www.ebay.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Ebay_Product_Search" name="Should search for the product and Verify text value" time="0.064">
+      <system-out><![CDATA[
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/window/maximize - {}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element - {"using":"css selector","value":"#gh-ac"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Ebay_Product_Search" name="Should redirect to a new page and verify the title" time="0.013">
+      <system-out><![CDATA[
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/window/maximize - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Ebay_Product_Search" name="should update the search category" time="0.038">
+      <system-out><![CDATA[
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/window/maximize - {}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: DELETE /session/b8554ad5380a7c8c33649b4229d6d9eb - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/title - {}
+RESULT: {"url":"https://www.ebay.com/"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element/4f31369b-e0db-4ad1-bfef-10c1f50d7192/value - {"text":"Laptop"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/4f31369b-e0db-4ad1-bfef-10c1f50d7192/property/value - {}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/b8554ad5380a7c8c33649b4229d6d9eb/element/0ceb950c-2659-407f-a8c6-bea615e71429/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/b8554ad5380a7c8c33649b4229d6d9eb/element/86938376-d260-4984-92b1-6943cb93782b/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
