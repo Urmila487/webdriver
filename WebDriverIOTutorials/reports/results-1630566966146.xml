@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Watches page" timestamp="2021-09-02T10:16:12" time="0.202" tests="4" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Watches page"/>
+      <property name="capabilities" value="msedge.92_0_902_55.windows"/>
+      <property name="file" value=".\test\specs\watches.js"/>
+    </properties>
+    <testcase classname="msedge.92_0_902_55.windows.Watches_page" name="should verify the watch category list" time="0.049">
+      <failure/>
+      <error message="expected [] to deeply equal [ Array(6) ]      &#xA;      actual expected&#xA;      &#xA;      [ 'Jewelry &amp; Watches', 'Watches, Parts &amp; Accessories', 'Watches', 'Parts, Tools &amp; Guides', 'Watch Accessories', 'Watches Mixed Lots' ]&#xA;      "/>
+      <system-out><![CDATA[
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/window/maximize - {}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/elements - {"using":"css selector","value":"section[id=\"s0-16-13_2-0-1[0]-0-0\"] ul li"}
+]]></system-out>
+      <system-err><![CDATA[
+AssertionError: expected [] to deeply equal [ Array(6) ]
+    at Context.<anonymous> (D:\webdriver\WebDriverIOTutorials\test\specs\/watches.js:20:47)
+    at Context.executeAsync (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\shim.js:285:25)
+    at Context.testFrameworkFnWrapper (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+]]></system-err>
+    </testcase>
+    <testcase classname="msedge.92_0_902_55.windows.Watches_page" name="should show the banner conatiner" time="0.018">
+      <system-out><![CDATA[
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/window/maximize - {}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/elements - {"using":"css selector","value":".title-banner__right-image"}
+]]></system-out>
+    </testcase>
+    <testcase classname="msedge.92_0_902_55.windows.Watches_page" name="should show the banner title" time="0.016">
+      <system-out><![CDATA[
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/window/maximize - {}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/element - {"using":"css selector","value":".title-banner__title"}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/element - {"using":"css selector","value":".title-banner__title"}
+RESULT: {"using":"css selector","value":"section[id=\"s0-16-13_2-0-1[0]-0-0\"] ul li"}
+]]></system-out>
+    </testcase>
+    <testcase classname="msedge.92_0_902_55.windows.Watches_page" name="should conatin link on banner button and verify its clickable" time="0.02">
+      <system-out><![CDATA[
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/window/maximize - {}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/element - {"using":"css selector","value":".hl-cta__default hl-cta__default-js hl-banner__cta ebayui-ellipsis"}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/element - {"using":"css selector","value":".hl-cta__default hl-cta__default-js hl-banner__cta ebayui-ellipsis"}
+COMMAND: POST /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4/url - {"url":"https://www.ebay.com/"}
+RESULT: {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+COMMAND: DELETE /session/d1c1ebe1bd84d3aecedf9c68fe0ed419ba116dc4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

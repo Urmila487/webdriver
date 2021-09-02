@@ -1,0 +1,233 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630566619721' stop='1630566620105'>
+    <name>Watches page</name>
+    <title>Watches page</title>
+    <test-cases>
+        <test-case start='1630566619722' status='failed' stop='1630566619820'>
+            <name>should verify the watch category list</name>
+            <title>should verify the watch category list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1630566619735' status='failed' stop='1630566619819'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bd88b826-2b41-4422-b59d-83044c4083f0-attachment.json' type='application/json' size='87'/>
+                    </attachments>
+                    <steps>
+                        <step start='1630566619745' status='failed' stop='1630566619819'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='21af653b-4963-424e-8210-7d9429ee2cdc-attachment.json' type='application/json' size='84'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566619758' status='failed' stop='1630566619819'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='f20e218b-3028-49a8-a2d3-1b069d7d0447-attachment.json' type='application/json' size='94'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1630566619766' status='failed' stop='1630566619819'>
+                                            <name>POST /session/:sessionId/url</name>
+                                            <title>POST /session/:sessionId/url</title>
+                                            <attachments>
+                                                <attachment title='Request' source='62672760-cd39-4049-9bb8-56f1ada16c2f-attachment.json' type='application/json' size='77'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1630566619784' status='failed' stop='1630566619819'>
+                                                    <name>POST /session/:sessionId/window/maximize</name>
+                                                    <title>POST /session/:sessionId/window/maximize</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1630566619795' status='failed' stop='1630566619819'>
+                                                            <name>POST /session/:sessionId/elements</name>
+                                                            <title>POST /session/:sessionId/elements</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='9340046d-fe68-41a7-a531-8856a04f7743-attachment.json' type='application/json' size='87'/>
+                                                            </attachments>
+                                                            <steps/>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected [] to deeply equal [ Array(6) ]      
+                      actual expected
+                      
+                      [ 'Jewelry &amp; Watches', 'Watches, Parts &amp; Accessories', 'Watches', 'Parts, Tools &amp; Guides', 'Watch Accessories', 'Watches Mixed Lots' ]
+                      </message>
+                <stack-trace>AssertionError: expected [] to deeply equal [ Array(6) ]
+                    at Context.&lt;anonymous> (D:\webdriver\WebDriverIOTutorials\test\specs\/watches.js:20:47)
+                    at Context.executeAsync (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\shim.js:285:25)
+                    at Context.testFrameworkFnWrapper (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630566619835' status='passed' stop='1630566619854'>
+            <name>should show the banner conatiner</name>
+            <title>should show the banner conatiner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1630566619837' status='undefined'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566619847' status='undefined'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='48368ee3-5a8c-42bd-a8b4-ab925a881adb-attachment.json' type='application/json' size='70'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1630566619857' status='passed' stop='1630566619874'>
+            <name>should show the banner title</name>
+            <title>should show the banner title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1630566619857' status='undefined'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566619862' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='18bd44e5-dfbb-4d06-8c9a-20f08251b972-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566619866' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='faf3b128-67ff-4e98-8912-82d50e20e496-attachment.json' type='application/json' size='64'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1630566619893' status='broken' stop='1630566619942'>
+            <name>should conatin link on banner button and verify its clickable</name>
+            <title>should conatin link on banner button and verify its clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1630566619905' status='broken' stop='1630566619942'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566619912' status='broken' stop='1630566619942'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='81a5770c-85e5-4d6e-94ae-d7baf3f2be7f-attachment.json' type='application/json' size='110'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566619916' status='broken' stop='1630566619942'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='880088ab-cd70-4599-a49d-349db65fc7d7-attachment.json' type='application/json' size='110'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1630566619935' status='broken' stop='1630566619942'>
+                                            <name>POST /session/:sessionId/url</name>
+                                            <title>POST /session/:sessionId/url</title>
+                                            <attachments>
+                                                <attachment title='Request' source='86b7eddb-19ac-433b-bafa-bb73deace8d1-attachment.json' type='application/json' size='36'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1630566620050' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d2fa77ff-d9d7-497e-97d0-e9b5122c1dd0-attachment.json' type='application/json' size='94'/>
+                    </attachments>
+                    <steps>
+                        <step start='1630566620083' status='undefined'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='47d63e60-8b6f-4fc9-bc56-2095694cfed4-attachment.json' type='application/json' size='94'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='73a0797a-7b56-4da6-a9f0-0c9fa10b57bf-attachment.json' type='application/json' size='2'/>
+                <attachment title='Response' source='82fc715e-4287-40ae-8c15-0478e77e3434-attachment.json' type='application/json' size='2'/>
+                <attachment title='Response' source='c355268b-2d9d-4ce8-adf8-498faa3a043f-attachment.json' type='application/json' size='1036'/>
+            </attachments>
+            <failure>
+                <message>shopBtn is not defined</message>
+                <stack-trace>ReferenceError: shopBtn is not defined
+                    at Context.&lt;anonymous> (D:\webdriver\WebDriverIOTutorials\test\specs\/watches.js:45:9)
+                    at Context.executeAsync (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\shim.js:285:25)
+                    at Context.testFrameworkFnWrapper (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

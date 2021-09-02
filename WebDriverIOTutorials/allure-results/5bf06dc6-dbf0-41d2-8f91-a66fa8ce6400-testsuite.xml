@@ -1,0 +1,206 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630566972254' stop='1630566972433'>
+    <name>Watches page</name>
+    <title>Watches page</title>
+    <test-cases>
+        <test-case start='1630566972255' status='failed' stop='1630566972343'>
+            <name>should verify the watch category list</name>
+            <title>should verify the watch category list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-92.0.902.55'/>
+                <parameter kind='argument' name='browser' value='msedge-92.0.902.55'/>
+            </parameters>
+            <steps>
+                <step start='1630566972263' status='failed' stop='1630566972343'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='452fabf5-4af0-455e-b3fd-28593b0e1a03-attachment.json' type='application/json' size='87'/>
+                    </attachments>
+                    <steps>
+                        <step start='1630566972272' status='failed' stop='1630566972343'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='d70aea25-d493-4d46-bad3-c17eb479ed73-attachment.json' type='application/json' size='84'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566972275' status='failed' stop='1630566972343'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='b59baadc-9739-475c-a35f-7bc4d84dbaec-attachment.json' type='application/json' size='94'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1630566972286' status='failed' stop='1630566972343'>
+                                            <name>POST /session/:sessionId/url</name>
+                                            <title>POST /session/:sessionId/url</title>
+                                            <attachments>
+                                                <attachment title='Request' source='8c4acd65-3be1-410e-9774-812d16ff1fe2-attachment.json' type='application/json' size='77'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1630566972305' status='failed' stop='1630566972343'>
+                                                    <name>POST /session/:sessionId/window/maximize</name>
+                                                    <title>POST /session/:sessionId/window/maximize</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1630566972318' status='failed' stop='1630566972343'>
+                                                            <name>POST /session/:sessionId/elements</name>
+                                                            <title>POST /session/:sessionId/elements</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='242bbdc5-80b4-47e1-adc1-f44999d477c2-attachment.json' type='application/json' size='87'/>
+                                                            </attachments>
+                                                            <steps/>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected [] to deeply equal [ Array(6) ]      
+                      actual expected
+                      
+                      [ 'Jewelry &amp; Watches', 'Watches, Parts &amp; Accessories', 'Watches', 'Parts, Tools &amp; Guides', 'Watch Accessories', 'Watches Mixed Lots' ]
+                      </message>
+                <stack-trace>AssertionError: expected [] to deeply equal [ Array(6) ]
+                    at Context.&lt;anonymous> (D:\webdriver\WebDriverIOTutorials\test\specs\/watches.js:20:47)
+                    at Context.executeAsync (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\shim.js:285:25)
+                    at Context.testFrameworkFnWrapper (D:\webdriver\WebDriverIOTutorials\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630566972355' status='passed' stop='1630566972373'>
+            <name>should show the banner conatiner</name>
+            <title>should show the banner conatiner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-92.0.902.55'/>
+            </parameters>
+            <steps>
+                <step start='1630566972357' status='undefined'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566972366' status='undefined'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='4d18ed95-b628-4c0f-95fa-6b7bae5ecdd6-attachment.json' type='application/json' size='70'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1630566972376' status='passed' stop='1630566972392'>
+            <name>should show the banner title</name>
+            <title>should show the banner title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-92.0.902.55'/>
+            </parameters>
+            <steps>
+                <step start='1630566972376' status='undefined'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566972380' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='9e0d909f-3b12-4e5c-b938-fd5780d74ee4-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566972384' status='passed' stop='1630566972399'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='ca889986-c7d6-4e71-8f5f-d0381891b468-attachment.json' type='application/json' size='64'/>
+                                        <attachment title='Response' source='f6b278c9-ff4e-42a9-b3b6-8f2b44398406-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1630566972408' status='passed' stop='1630566972428'>
+            <name>should conatin link on banner button and verify its clickable</name>
+            <title>should conatin link on banner button and verify its clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-92.0.902.55'/>
+            </parameters>
+            <steps>
+                <step start='1630566972412' status='undefined'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1630566972414' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='1e38f7d2-1a25-454a-9c83-d197f703b6df-attachment.json' type='application/json' size='110'/>
+                            </attachments>
+                            <steps>
+                                <step start='1630566972418' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='c131790c-5ec3-4218-a938-b029942c6182-attachment.json' type='application/json' size='110'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1630566972423' status='undefined'>
+                                            <name>POST /session/:sessionId/url</name>
+                                            <title>POST /session/:sessionId/url</title>
+                                            <attachments>
+                                                <attachment title='Request' source='c476c590-9131-4cd4-b6c9-03a0494f31e4-attachment.json' type='application/json' size='36'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

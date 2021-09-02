@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".hl-cat-nav__sub-cat-col a[href*=\"Wristwatches\"]\"}\n  (Session info: chrome=92.0.4515.107)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x009C5843+2512963]\n\tOrdinal0 [0x0095EED1+2092753]\n\tOrdinal0 [0x00861F48+1056584]\n\tOrdinal0 [0x0088C70B+1230603]\n\tOrdinal0 [0x008B6442+1401922]\n\tOrdinal0 [0x008A562A+1332778]\n\tOrdinal0 [0x008B487F+1394815]\n\tOrdinal0 [0x008A54BB+1332411]\n\tOrdinal0 [0x00881D14+1187092]\n\tOrdinal0 [0x00882B79+1190777]\n\tGetHandleVerifier [0x00B40C56+1501718]\n\tGetHandleVerifier [0x00BEE97F+2213695]\n\tGetHandleVerifier [0x00A48C92+485970]\n\tGetHandleVerifier [0x00A47D59+482073]\n\tOrdinal0 [0x0096471D+2115357]\n\tOrdinal0 [0x00968678+2131576]\n\tOrdinal0 [0x009687B2+2131890]\n\tOrdinal0 [0x00971971+2169201]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D57A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77D57A4E+238]\n"
+}
