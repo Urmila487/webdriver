@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay Product Search" timestamp="2021-09-02T09:26:20" time="0.119" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="firefox.91_0.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should open the main URL and Verify the title" time="0.019">
+      <system-out><![CDATA[
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/window/maximize - {}
+COMMAND: GET /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/title - {}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/url - {"url":"https://www.ebay.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should search for the product and Verify text value" time="0.019">
+      <system-out><![CDATA[
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/window/maximize - {}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/element - {"using":"css selector","value":"#gh-ac"}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should redirect to a new page and verify the title" time="0.007">
+      <system-out><![CDATA[
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/window/maximize - {}
+COMMAND: GET /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="should update the search category" time="0.018">
+      <system-out><![CDATA[
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/window/maximize - {}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: POST /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8a60e21084e1f475e931abcc468c2eb2787b2edf/title - {}
+COMMAND: DELETE /session/8a60e21084e1f475e931abcc468c2eb2787b2edf - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

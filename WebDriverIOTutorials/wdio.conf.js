@@ -148,7 +148,10 @@ exports.config = {
         disableWebdriverScreenshotsReporting: false
         }],
         ['junit', {
-        outputDir: './reports'
+        outputDir: './reports',
+        outputFileFormat: function(options) { 
+            return `results-${new Date().getTime()}.xml`;
+        }
         }]
         ],
     //
