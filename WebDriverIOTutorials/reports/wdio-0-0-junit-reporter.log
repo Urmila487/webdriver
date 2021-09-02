@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites/>
+<testsuites>
+  <testsuite name="Ebay Product Search" timestamp="2021-09-02T09:10:37" time="0.124" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="chrome.92_0_4515_107.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_107.windows.Ebay_Product_Search" name="Should open the main URL and Verify the title" time="0.03">
+      <system-out><![CDATA[
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/window/maximize - {}
+COMMAND: GET /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/title - {}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/url - {"url":"https://www.ebay.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_107.windows.Ebay_Product_Search" name="Should search for the product and Verify text value" time="0.028">
+      <system-out><![CDATA[
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/window/maximize - {}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/element - {"using":"css selector","value":"#gh-ac"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_107.windows.Ebay_Product_Search" name="Should redirect to a new page and verify the title" time="0.007">
+      <system-out><![CDATA[
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/window/maximize - {}
+COMMAND: GET /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_107.windows.Ebay_Product_Search" name="should update the search category" time="0.016">
+      <system-out><![CDATA[
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/window/maximize - {}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: POST /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/be5b438ff0e9bc967c931e41365f10dcfa7be209/title - {}
+COMMAND: DELETE /session/be5b438ff0e9bc967c931e41365f10dcfa7be209 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

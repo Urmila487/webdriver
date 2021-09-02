@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites/>
+<testsuites>
+  <testsuite name="Ebay Product Search" timestamp="2021-09-02T09:10:39" time="0.128" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="firefox.91_0.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should open the main URL and Verify the title" time="0.027">
+      <system-out><![CDATA[
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/window/maximize - {}
+COMMAND: GET /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/title - {}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/url - {"url":"https://www.ebay.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should search for the product and Verify text value" time="0.026">
+      <system-out><![CDATA[
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/window/maximize - {}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/element - {"using":"css selector","value":"#gh-ac"}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="Should redirect to a new page and verify the title" time="0.009">
+      <system-out><![CDATA[
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/window/maximize - {}
+COMMAND: GET /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.91_0.windows.Ebay_Product_Search" name="should update the search category" time="0.02">
+      <system-out><![CDATA[
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/window/maximize - {}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: POST /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {}
+COMMAND: DELETE /session/192dd79131b64a0bc1a07a279d351a81b7cacdb9 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
