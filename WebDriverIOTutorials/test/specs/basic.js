@@ -1,6 +1,6 @@
-xdescribe('webdriver.io page', () => {
+describe('webdriver.io page', () => {
     it('should have the right title', () => {
-        browser.url('https://webdriver.io')
-        expect(browser).toHaveTitle('WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO')
+        browser.url('https://qa.roomex.com/login')
+        expect(browser).toHaveTitle("Roomex is a Global Hotel Booking Platform for Business Travel")
     })
 })

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="webdriver io page" timestamp="2021-09-16T15:39:01" time="0.068" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="webdriver.io page"/>
+      <property name="capabilities" value="chrome.93_0_4577_63.windows"/>
+      <property name="file" value=".\test\specs\basic.js"/>
+    </properties>
+    <testcase classname="chrome.93_0_4577_63.windows.webdriver.io_page" name="should have the right title" time="0.052">
+      <system-out><![CDATA[
+COMMAND: POST /session/cc647c1e9a83eac33e5069b0fff5f699813b7b16/window/maximize - {}
+COMMAND: GET /session/cc647c1e9a83eac33e5069b0fff5f699813b7b16/title - {}
+COMMAND: POST /session/cc647c1e9a83eac33e5069b0fff5f699813b7b16/url - {"url":"https://qa.roomex.com/login"}
+RESULT: {}
+COMMAND: DELETE /session/cc647c1e9a83eac33e5069b0fff5f699813b7b16 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
